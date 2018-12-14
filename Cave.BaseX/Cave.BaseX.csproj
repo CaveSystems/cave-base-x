@@ -8,20 +8,21 @@
     <Product>CaveSystems BaseX Library</Product>
     <Copyright>(c) 2003-2018 Andreas Rohleder</Copyright>
     <PackageLicenseUrl>https://www.gnu.org/licenses/lgpl-3.0.en.html</PackageLicenseUrl>
+    <PackageLicense>LGPL-3.0-or-later</PackageLicense>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Cave.BaseX.snk</AssemblyOriginatorKeyFile>
-    <Version>1.0.0-alpha-$(Configuration.ToLower())-1</Version>
+    <Version>1.0.0-$(Configuration.ToLower())</Version>
     <PackageIconUrl>https://www.cavesystems.de/favicon.ico</PackageIconUrl>
     <PackageTags>CaveSystems Base32 Base64 BaseX</PackageTags>
-    <PackageProjectUrl>https://www.cavesystems.de</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Dingsd4/cave-base-x</PackageProjectUrl>
     <PackageReleaseNotes>Aktueller Release Candidate 2018</PackageReleaseNotes>
     <Description>CaveSystems BaseX Library</Description>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Cave.BaseX.xml</DocumentationFile>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <AssemblyVersion>1.0.0.1</AssemblyVersion>
-    <FileVersion>2018.1118.2043.1095</FileVersion>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>2018.1214.1822.1090</FileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DebugType>pdbonly</DebugType>
